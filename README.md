@@ -2,9 +2,12 @@
 
 Python Shodan Searcher with opt-parsing
 
+note: you need to plug in your shodan api key
+
 # USAGE
 
-threedan.py -q <query> -f <filename.txt>
+threedan.py -q query -f filetosaveto.txt
+
 
 # EXAMPLE
 
