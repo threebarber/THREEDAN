@@ -12,6 +12,7 @@ def search(query,filename):
         results = api.search(query) #try to search using api object, error handling for messy shodan.APIERROR errors
     except shodan.APIError, se:
         print "[-] Shodan APIError, " +str(se)
+        exit(0)
 
     print '[+] Saving to: '        +str(filename) #display progress and user-selected options back to user
     time.sleep(5)
