@@ -1,6 +1,6 @@
 # THREEDAN
 
-Python Shodan Searcher with opt-parsing
+Python Shodan Searcher with command line options and customizable txt file saving
 
 note: you need to plug in your shodan api key
 
